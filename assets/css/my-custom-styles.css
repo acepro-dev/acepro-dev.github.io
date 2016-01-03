@@ -1,24 +1,17 @@
 /* your custom styles here */
-.overlay{
-    position: "absolute",
-    width: "100%",
-    height: "100%",
-    top: 0,
-    left: 0,
-    background: "#ccc"
+.yellow{
+    background: rgb(255, 192, 0);
 }
 
-.overlay2 img{
-  width: 100%;
+.green{
+    background: rgb(35, 225, 72);
 }
 
-.overlay2::before {
-    position: absolute;
-    content: '';
-    z-index: 3;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-image: url(https://codingcat.blob.core.windows.net/webcc/overaly.png);
+.blue{
+    background: rgb(68, 114, 196);
+}
+.panel-radius{
+    -webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;
 }
